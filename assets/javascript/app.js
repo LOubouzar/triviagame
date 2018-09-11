@@ -156,8 +156,8 @@ $(document).ready(function () {
             $("#questionArea").empty();
             $("#answerArea").html("<h3>Game Over!  Here's how you did: </h3>");
             $("#answerArea").append("<h4> Correct: " + correct + "</h4>" );
-            $("#answerblock").append("<h4> Incorrect: " + wrong + "</h4>" );
-            $("#answerblock").append("<h4> Unanswered: " + unanswered + "</h4>" );
+            $("#answerArea").append("<h4> Incorrect: " + wrong + "</h4>" );
+            $("#answerArea").append("<h4> Unanswered: " + unanswered + "</h4>" );
             $("#resetButton").show();
         };
     
