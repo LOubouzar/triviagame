@@ -6,21 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Office Quote Game</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
 </head>
 
 <body>
-    <h1>Can you guess who said what from "The Office"?</h1>
-    <div class="container">
-        <div id="timerArea"></div>
-        <div id="questionArea"></div>
-        <div id="answerArea"></div>
-        <button id="startButton">Start Game</button>
-        <button id="resetButton">Play Again?</button>
-    </div>
+    <nav class="navbar is-warning" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item has-text-weight-bold">"The Office" Quote Trivia</a>
+        </div>
+        <div class="navbar-end">
+            <a class="navbar-item" href="#linktogithub"><i class="fab fa-github fa-lg"></i></a>
+            <a class="navbar-item" href="#portfoliohome"><i class="fas fa-home fa-lg"></i></a>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container has-text-centered">
+            <h1 class="title">Can you guess who said what from "The Office"?</h1>
+             <!-- <h2 class="subtitle"></h2> -->
+            <div id="timerArea"></div>
+            <div id="questionArea"></div>
+            <div id="answerArea"></div>
+            <a class="button is-warning is-hovered"id="startButton">Start Game</a>
+            <a class="button is-warning is-hovered"id="submitButton">Submit</a>
+            <a class="button is-warning is-hovered"id="nextButton">Next</a>
+            <a class="button is-warning is-hovered"id="resetButton">Play Again?</a>
+        </div>
+    </section>
+
+
 </body>
 
 </html>
